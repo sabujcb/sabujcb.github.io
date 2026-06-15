@@ -5,7 +5,7 @@ permalink: /
 subtitle: Data Science · Machine Learning · Computational Biology · Applied Statistics · Reproducible Research
 profile:
   align: right
-  image: profile.jpg
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>Turku, Finland</p>
