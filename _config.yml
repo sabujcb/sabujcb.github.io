@@ -2,27 +2,37 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+title: Sabuj C. Bhowmick
+first_name: Sabuj C.
+middle_name:
+last_name: Bhowmick
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+contact_note: >
+  For research collaboration, data science projects, machine learning engineering, or academic opportunities, email is the best way to reach me.
+
+description: >
+  Personal research and technical portfolio of Sabuj C. Bhowmick, focusing on data science,
+  machine learning, computational biology, bioinformatics, applied statistics, IoT,
+  data engineering, and reproducible scientific computing.
+
+footer_text: >
+  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and hosted on
+  <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+Keywords: data-science, machine-learning, bioinformatics, computational-biology, biostatistics, applied-statistics, python, r, bioconductor, multiomics, microbiome, iot, data-engineering, reproducible-research, portfolio
+
+lang: en
+
+icon: 📊
+
+url: https://sabujcb.github.io
+baseurl:
+
+last_updated: true
+
+impressum_path:
+
+back_to_top: true
 
 # -----------------------------------------------------------------------------
 # Theme
