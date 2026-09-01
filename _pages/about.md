@@ -2,33 +2,30 @@
 layout: about
 title: About
 permalink: /
-subtitle: Data Science · Machine Learning · Computational Biology · Applied Statistics · Reproducible Research
+subtitle: Data Science · Machine Learning · Computational Biology · Applied Statistics
+nav: true
+nav_order: 1
 profile:
   align: right
   image: sabuj.jpg
   image_circular: false
-  more_info: >
-    <p>Turku, Finland</p>
 ---
 
-I am **Sabuj C. Bhowmick**, an MSc Data Analytics student at the **University of Turku, Finland**, with an interdisciplinary background in **statistics, mathematical sciences, public health, IoT engineering, machine learning, and computational research**.
+I am **Sabuj C. Bhowmick**, an MSc student in Information and Communication Technology, specializing in **Data Analytics**, at the University of Turku. My interdisciplinary background spans statistics, mathematical sciences, public health, Internet of Things engineering, machine learning, and computational research.
 
-My work focuses on building **reproducible, interpretable, and methodologically rigorous data-driven solutions**. I am particularly interested in applications of data science and machine learning in **bioinformatics, computational biology, biostatistics, public health analytics, time-series forecasting, and data-intensive scientific computing**.
+I build **reproducible and interpretable data-driven solutions**, with particular interest in computational biology, microbiome analytics, biostatistics, predictive modeling, and research software. My work emphasizes validation design, data quality, leakage prevention, transparent evaluation, and results that can be reproduced by others.
 
-I have academic and project experience across **applied statistics, predictive modeling, machine learning workflows, IoT-based data systems, renewable energy forecasting, microbiome data science, multiomics integration, and reproducible research reporting**. My technical work emphasizes proper validation, transparent model evaluation, data quality, leakage prevention, and clear communication of analytical results.
+## Current focus
 
-My current technical direction combines **Python, R, SQL, Bioconductor, scikit-learn, XGBoost, statistical modeling, Git/GitHub workflows, Quarto/R Markdown, LaTeX, and research-oriented software development**. I am developing a portfolio that connects academic research, machine learning engineering, and practical data-driven problem solving.
+My current research and software work examines **Joint Robust Principal Component Analysis (Joint-RPCA)** for multi-omics integration. I am comparing R/Bioconductor and Python implementations, aligning preprocessing and evaluation, and developing reproducible validation workflows for microbiome data.
 
-I am open to research collaboration, thesis/research opportunities, data science projects, machine learning engineering work, and PhD-level research opportunities in areas related to **computational biology, bioinformatics, applied AI, biostatistics, and reproducible data science**.
+## Technical direction
 
+- **Data science and statistics:** regression, classification, time-series analysis, experimental design, and model evaluation
+- **Machine learning engineering:** reproducible pipelines, cross-validation, feature engineering, testing, and performance analysis
+- **Computational biology:** Bioconductor, microbiome data, multi-omics integration, and compositional data analysis
+- **Research software:** Python, R, SQL, Git/GitHub, Quarto, R Markdown, and LaTeX
 
+I am open to research collaboration, thesis and PhD opportunities, and data science or machine learning engineering roles where methodological rigor and practical impact are both important.
 
-
-
-
-
-
-
-
-
-
+[Explore selected projects](/projects/) · [View research work](/research/) · [Read my CV](/cv/)

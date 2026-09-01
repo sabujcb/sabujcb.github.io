@@ -1,155 +1,145 @@
 cv:
   name: Sabuj C. Bhowmick
-  label: MSc Data Analytics Student | Data Science | Machine Learning | Computational Biology | Applied Statistics
-  email: sabuj606@gmail.com
-  location: Turku, Finland
-  image: ""
-  summary: >
-    MSc Data Analytics student at the University of Turku, Finland, with an interdisciplinary background in
-    statistics, mathematical sciences, public health, IoT engineering, machine learning, and computational research.
-    My work focuses on reproducible, interpretable, and methodologically rigorous data-driven solutions across
-    data science, applied statistics, bioinformatics, computational biology, public health analytics,
-    time-series forecasting, IoT-based data systems, and research-oriented software development.
-
+  headline: Data Scientist | Machine Learning Researcher | Computational Biology
   social_networks:
     - network: GitHub
       username: sabujcb
     - network: LinkedIn
       username: sabuj-bhowmick-34920874
 
-  address:
-    city: Turku
-    countryCode: FI
-
   sections:
+    Profile:
+      - >
+        MSc Data Analytics student at the University of Turku with an interdisciplinary background in statistics,
+        mathematical sciences, public health, IoT engineering, machine learning, and computational research. Focused
+        on reproducible and interpretable data science, rigorous model validation, bioinformatics, multi-omics
+        integration, and research-oriented software development.
+
     Education:
       - institution: University of Turku
-        location: Turku, Finland
-        area: Data Analytics
-        studyType: MSc
-        start_date: ""
-        end_date: Present
-        score: ""
-        courses: "Machine learning, data analytics, statistical modeling, data-intensive systems, research-oriented computing"
+        area: Information and Communication Technology - Data Analytics
+        degree: MSc
+        start_date: 2025
+        end_date: present
         highlights:
-          - Current MSc studies focused on data analytics, machine learning, statistical modeling, and computational methods.
-          - Developing expertise in reproducible data science, model validation, and research-oriented software workflows.
+          - Graduate studies in machine learning, data analytics, statistical modeling, and data-intensive systems.
+          - Focus on reproducible analysis, model validation, and research-oriented computing.
+
+      - institution: Savonia University of Applied Sciences
+        area: Internet of Things
+        degree: BEng
+        end_date: 2024
+        highlights:
+          - Engineering studies in connected systems, data acquisition, software development, and applied analytics.
 
       - institution: Norwegian University of Science and Technology
-        location: Norway
         area: Mathematical Sciences
-        studyType: MSc
-        start_date: ""
+        degree: MSc
         end_date: 2019
         highlights:
-          - Graduate-level training in mathematical sciences, analytical reasoning, and quantitative modeling.
+          - Graduate training in mathematical reasoning, quantitative modeling, and scientific problem solving.
 
       - institution: University of Oslo
-        location: Oslo, Norway
         area: International Community Health
-        studyType: MPhil
-        start_date: ""
+        degree: MPhil
         end_date: 2015
         highlights:
-          - Research-focused training in public health, epidemiological thinking, and quantitative health research.
+          - Research training in public health, epidemiological reasoning, and quantitative health research.
 
       - institution: University of Dhaka
-        location: Dhaka, Bangladesh
+        area: Population Sciences
+        degree: MPS
+        end_date: 2013
+
+      - institution: University of Dhaka
         area: Statistics
-        studyType: MSc
-        start_date: ""
+        degree: MSc
         end_date: 2011
         highlights:
-          - Advanced academic training in statistical methods, probability, inference, and applied data analysis.
+          - Advanced training in probability, statistical inference, regression, and applied data analysis.
 
       - institution: University of Dhaka
-        location: Dhaka, Bangladesh
         area: Statistics
-        studyType: BSc
-        start_date: ""
+        degree: BSc
         end_date: 2010
-        highlights:
-          - Foundation in statistics, mathematics, data analysis, and quantitative research methods.
 
     Experience:
       - company: Savonia University of Applied Sciences
-        position: Project Worker, 5G to Boost Digitization
-        location: Kuopio, Finland
+        position: Project Worker - 5G to Boost Digitization
         start_date: 2023-06
         end_date: 2023-08
         summary: >
-          Worked on applied data analysis, software development, and machine learning tasks in a 5G- and IoT-related
-          digitalization project.
+          Developed applied data-analysis and forecasting workflows within a 5G- and IoT-oriented digitalization
+          project.
         highlights:
-          - Developed data-driven workflows for solar energy production analysis and forecasting.
-          - Applied statistical and machine learning methods to support forecasting-oriented analysis.
-          - Integrated weather data sources and contributed to technical documentation and reporting.
-          - Used R, Python, Power BI, and machine learning libraries.
+          - Built solar-energy production analysis and forecasting workflows.
+          - Compared statistical and machine learning models, including ARIMA, random forest, SVR, and XGBoost.
+          - Integrated weather data and prepared reproducible technical reporting.
 
-      - company: Savonia University of Applied Sciences / Voimatel Project
-        position: Intern, Starlink Internet Feasibility Testing
-        location: Finland
+      - company: Voimatel Oy / Savonia University of Applied Sciences
+        position: Intern - Starlink Feasibility Testing
         start_date: 2023-09
         end_date: 2024-01
         summary: >
-          Evaluated satellite internet feasibility for remote operation use cases, comparing Starlink connectivity
-          with existing mobile network alternatives.
+          Evaluated satellite connectivity for remote operational scenarios and compared it with mobile-network
+          alternatives.
         highlights:
-          - Set up and tested Starlink equipment for remote connectivity scenarios.
-          - Compared latency, bandwidth, and signal reliability in practical field conditions.
-          - Prepared documentation and contributed to applied IoT and remote connectivity evaluation.
+          - Measured latency, bandwidth, signal reliability, and field performance.
+          - Documented equipment setup, test conditions, results, and practical limitations.
+
+      - company: University of Florida-associated research collaboration
+        position: Senior Reviewer - Interdisciplinary Cardiac Arrest Review
+        start_date: 2018
+        end_date: 2022
+        highlights:
+          - Contributed to structured evidence assessment and interdisciplinary scientific review.
+          - Applied methodological scrutiny to research interpretation and reporting.
 
     Skills:
-      - name: Programming and Data Analysis
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python, R, SQL, Bash, Git, GitHub, Quarto, R Markdown, LaTeX"
+      - label: Programming and research software
+        details: Python, R, SQL, Bash, Git, GitHub, Quarto, R Markdown, LaTeX
 
-      - name: Machine Learning
-        level: Intermediate to Advanced
-        icon: fa-solid fa-brain
-        keywords: "scikit-learn, XGBoost, random forest, support vector machines, regression, classification, cross-validation, model evaluation"
+      - label: Machine learning
+        details: scikit-learn, PyTorch, XGBoost, random forest, SVM, regression, classification, cross-validation
 
-      - name: Statistics and Modeling
-        level: Advanced
-        icon: fa-solid fa-chart-line
-        keywords: "applied statistics, regression, hypothesis testing, time-series analysis, biostatistics, epidemiological analysis"
+      - label: Statistics
+        details: applied statistics, statistical inference, time-series analysis, biostatistics, model evaluation
 
-      - name: Bioinformatics and Computational Biology
-        level: Developing / Research-focused
-        icon: fa-solid fa-dna
-        keywords: "Bioconductor, microbiome analysis, multiomics integration, Joint RPCA, biological data workflows"
+      - label: Bioinformatics
+        details: Bioconductor, microbiome analysis, compositional data, multi-omics integration, Joint-RPCA
+
+      - label: Engineering practices
+        details: reproducible pipelines, automated testing, data validation, version control, technical documentation
 
     Projects:
-      - name: Solar Energy Forecasting
+      - name: Joint-RPCA for Multi-omics Integration
         summary: >
-          Comparative analysis of statistical and machine learning models for solar energy production forecasting.
+          Cross-language validation of R/Bioconductor and Python/Gemelli workflows for microbiome multi-omics data.
         highlights:
-          - Compared ARIMA, ARMA, linear regression, random forest, support vector regression, and XGBoost.
-          - Used MAE, MSE, and RMSE for model evaluation.
-          - Focused on feature engineering, validation, model comparison, and reproducible reporting.
+          - Developed and tested consistent input filtering for multi-assay biological count data.
+          - Compared sample scores, feature loadings, explained variation, and cross-validation outputs.
+          - Produced reproducible Quarto workflows with fixed configurations and interoperable outputs.
 
-      - name: Joint RPCA and Multiomics Integration
-        summary: >
-          Research-oriented implementation and learning project focused on Joint Robust Principal Component Analysis
-          for multiomics and biological data integration.
+      - name: Solar Energy Forecasting
+        summary: Comparative forecasting with statistical and machine learning models.
         highlights:
-          - Explored R-based workflows for dimensionality reduction and biological data integration.
-          - Focused on reproducibility, preprocessing, method interpretation, and structured implementation.
+          - Integrated photovoltaic production and weather data.
+          - Compared ARIMA/ETS, random forest, SVR, and XGBoost using chronological validation.
+
+      - name: Protein–Drug Affinity Prediction
+        summary: Group-aware validation study for affinity prediction.
+        highlights:
+          - Compared leave-one-observation, leave-one-protein, and leave-one-drug validation.
+          - Identified a substantial loss of generalization for previously unseen proteins.
 
     Languages:
-      - name: Bangla
-        summary: Native
-      - name: English
-        summary: Professional working proficiency
-      - name: Finnish
-        summary: Basic / developing
+      - label: Bangla
+        details: Native
+      - label: English
+        details: Professional working proficiency
+      - label: Finnish
+        details: Basic
 
     Interests:
-      - name: Scientific Computing and Reproducible Research
-        icon: fa-solid fa-flask
-        keywords: "reproducible workflows, research software, computational analysis, publication-quality reporting"
-
-      - name: Data Science for Health and Biological Systems
-        icon: fa-solid fa-heart-pulse
-        keywords: "bioinformatics, computational biology, public health analytics, biostatistics, machine learning"
+      - label: Research interests
+        details: computational biology, bioinformatics, applied AI, biostatistics, scientific computing, reproducibility
