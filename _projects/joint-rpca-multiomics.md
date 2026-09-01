@@ -3,7 +3,25 @@ layout: page
 title: Joint-RPCA for Multi-omics Integration
 description: Cross-language validation of R/Bioconductor and Python workflows for microbiome data.
 importance: 1
+featured_order: 1
 category: research
+project_type: Computational biology
+status: Active research
+metric_value: "60"
+metric_label: shared samples retained across the current multi-omics workflow
+card_highlights:
+  - Aligns filtering, configuration, and randomness across R and Python implementations.
+  - Compares scores and loadings after accounting for latent-space indeterminacy.
+tools: [R, Python, Bioconductor, Gemelli, Quarto]
+resources:
+  - label: R implementation
+    url: https://github.com/sabujcb/Joint_RPCA_in_R
+  - label: mia development
+    url: https://github.com/sabujcb/mia_JRPCA
+  - label: Workflow
+    url: https://github.com/sabujcb/OMAWorkflows
+  - label: Gemelli
+    url: https://github.com/biocore/gemelli
 ---
 
 ## Overview

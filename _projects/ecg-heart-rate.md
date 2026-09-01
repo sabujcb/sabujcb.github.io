@@ -3,7 +3,21 @@ layout: page
 title: ECG Heart-rate Estimation
 description: Signal-processing pipeline for robust heart-rate estimation from short ECG segments.
 importance: 1
+featured_order: 6
 category: data-science
+project_type: Signal processing
+status: Completed study
+metric_value: 200 × 30s
+metric_label: ECG segments analyzed at a sampling rate of 200 Hz
+card_highlights:
+  - Combines peak detection with autocorrelation and spectral evidence.
+  - Makes low-confidence segments and physiological plausibility checks explicit.
+tools: [Python, NumPy, SciPy, peak detection, spectral analysis]
+resources:
+  - label: Peak detection
+    url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html
+  - label: Welch PSD
+    url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html
 ---
 
 ## Overview

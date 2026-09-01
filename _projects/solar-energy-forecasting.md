@@ -3,7 +3,21 @@ layout: page
 title: Solar Energy Forecasting
 description: Statistical and machine learning models for short-term photovoltaic production forecasting.
 importance: 1
+featured_order: 3
 category: machine-learning
+project_type: Time-series forecasting
+status: Completed study
+metric_value: "≈0.1618"
+metric_label: best non-differenced XGBoost MAE in the project target scale
+card_highlights:
+  - Benchmarks statistical and machine learning models on identical forecast windows.
+  - Preserves temporal ordering to prevent future-to-past leakage.
+tools: [Python, R, XGBoost, ARIMA/ETS, time-series CV]
+resources:
+  - label: TimeSeriesSplit
+    url: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html
+  - label: XGBoost
+    url: https://xgboost.readthedocs.io/en/stable/
 ---
 
 ## Overview

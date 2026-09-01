@@ -3,7 +3,19 @@ layout: page
 title: Human Activity Recognition
 description: Participant-aware classification with random forests, support vector machines, and LOSO validation.
 importance: 2
+featured_order: 4
 category: machine-learning
+project_type: Sensor classification
+status: Completed study
+metric_value: LOSO
+metric_label: participant-level validation for performance on unseen users
+card_highlights:
+  - Compares random forests and support vector machines with consistent model selection.
+  - Keeps every participant entirely within one validation fold.
+tools: [Python, scikit-learn, random forest, SVM, grouped CV]
+resources:
+  - label: LeaveOneGroupOut
+    url: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.LeaveOneGroupOut.html
 ---
 
 ## Overview
