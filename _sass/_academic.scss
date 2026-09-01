@@ -370,8 +370,10 @@ html[data-theme="dark"] .cv-action-primary {
 
 .academic-portrait {
   position: relative;
+  align-self: center;
   justify-self: end;
-  width: min(100%, 19rem);
+  width: clamp(13.5rem, 22vw, 17.5rem);
+  height: clamp(17rem, 27.5vw, 21.875rem);
   padding: 0.55rem;
   border: 1px solid var(--academic-border-strong);
   border-radius: 1.5rem 1.5rem 0.75rem 1.5rem;
@@ -394,10 +396,11 @@ html[data-theme="dark"] .cv-action-primary {
   img {
     display: block;
     width: 100%;
-    aspect-ratio: 4 / 5;
+    height: 100% !important;
+    max-height: 100%;
     border-radius: 1.1rem 1.1rem 0.5rem 1.1rem;
     object-fit: cover;
-    object-position: center 24%;
+    object-position: center;
   }
 }
 
@@ -679,7 +682,8 @@ footer {
 
   .academic-portrait {
     justify-self: start;
-    width: min(75vw, 17rem);
+    width: min(68vw, 15rem);
+    height: min(85vw, 18.75rem);
   }
 
   .academic-closing {
