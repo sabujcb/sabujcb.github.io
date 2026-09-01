@@ -372,8 +372,8 @@ html[data-theme="dark"] .cv-action-primary {
   position: relative;
   align-self: center;
   justify-self: end;
-  width: clamp(13.5rem, 22vw, 17.5rem);
-  height: clamp(17rem, 27.5vw, 21.875rem);
+  width: clamp(14rem, 22vw, 17rem);
+  height: auto !important;
   padding: 0.55rem;
   border: 1px solid var(--academic-border-strong);
   border-radius: 1.5rem 1.5rem 0.75rem 1.5rem;
@@ -392,15 +392,26 @@ html[data-theme="dark"] .cv-action-primary {
     content: "";
     opacity: 0.16;
   }
+}
+
+.academic-portrait-frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 1;
+  border-radius: 1.1rem 1.1rem 0.5rem 1.1rem;
 
   img {
+    position: absolute;
+    inset: 0;
     display: block;
-    width: 100%;
+    width: 100% !important;
     height: 100% !important;
-    max-height: 100%;
+    max-width: none;
+    max-height: none;
     border-radius: 1.1rem 1.1rem 0.5rem 1.1rem;
     object-fit: cover;
-    object-position: center;
+    object-position: center 44%;
   }
 }
 
@@ -682,8 +693,7 @@ footer {
 
   .academic-portrait {
     justify-self: start;
-    width: min(68vw, 15rem);
-    height: min(85vw, 18.75rem);
+    width: min(58vw, 14rem);
   }
 
   .academic-closing {
