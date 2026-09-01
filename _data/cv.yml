@@ -64,6 +64,30 @@ cv:
         end_date: 2010
 
     Experience:
+      - company: University of Turku - Department of Computing
+        position: Project Researcher
+        start_date: 2026-09-01
+        end_date: present
+        summary: >
+          Conducting data analytics for the NoveLyme project, supporting computational research on Lyme
+          disease-related data within the Department of Computing.
+        highlights:
+          - Prepare, analyze, and interpret project data in support of NoveLyme research objectives.
+          - Develop transparent analytical outputs and communicate findings within the project research team.
+
+      - company: University of Turku - Department of Computing
+        position: Research Assistant
+        start_date: 2026-05-15
+        end_date: 2026-08-14
+        summary: >
+          Contributed to the development and validation of Joint-RPCA workflows for microbiome multi-omics data in
+          the R/Bioconductor mia ecosystem.
+        highlights:
+          - Prepared aligned metagenomic and metatranscriptomic inputs, shared-sample sets, deterministic train/test splits, and reproducible filtering workflows.
+          - Compared R/Bioconductor mia and Python/Gemelli outputs across sample scores, feature loadings, explained variation, cross-validation results, and distance structure.
+          - Improved research software through metadata-access refactoring, runtime messaging, tests, documentation, and reproducible Quarto reports with software provenance.
+          - Collaborated through GitHub with international professor-led research teams.
+
       - company: Savonia University of Applied Sciences
         position: Project Worker - 5G to Boost Digitization
         start_date: 2023-06
