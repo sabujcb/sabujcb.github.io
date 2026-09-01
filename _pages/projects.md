@@ -22,8 +22,8 @@ nav_order: 3
     border: 1px solid var(--project-border);
     border-radius: calc(var(--project-radius) + 0.25rem);
     background:
-      radial-gradient(circle at top right, rgba(111, 66, 193, 0.16), transparent 40%),
-      linear-gradient(135deg, rgba(0, 123, 255, 0.12), rgba(32, 201, 151, 0.08));
+      radial-gradient(circle at top right, var(--academic-gold-soft), transparent 40%),
+      linear-gradient(135deg, var(--academic-accent-soft), var(--academic-teal-soft));
   }
 
   .projects-eyebrow {
@@ -148,7 +148,7 @@ nav_order: 3
     border: 1px solid var(--project-border);
     border-radius: var(--project-radius);
     background: var(--project-surface);
-    box-shadow: 0 0.35rem 1.25rem rgba(0, 0, 0, 0.045);
+    box-shadow: var(--academic-shadow);
     transition:
       transform 160ms ease,
       border-color 160ms ease,
@@ -158,7 +158,7 @@ nav_order: 3
   .project-card:hover {
     transform: translateY(-3px);
     border-color: var(--global-theme-color);
-    box-shadow: 0 0.75rem 1.75rem rgba(0, 0, 0, 0.08);
+    box-shadow: var(--academic-shadow-strong);
   }
 
   .project-card-topline {
@@ -215,7 +215,7 @@ nav_order: 3
     padding: 0.85rem;
     border-left: 3px solid var(--global-theme-color);
     border-radius: 0.65rem;
-    background: rgba(0, 123, 255, 0.065);
+    background: var(--academic-accent-soft);
   }
 
   .project-metric strong {
@@ -302,7 +302,7 @@ nav_order: 3
   .project-principle {
     padding: 1rem;
     border-radius: 0.8rem;
-    background: rgba(0, 123, 255, 0.055);
+    background: var(--academic-accent-soft);
   }
 
   .project-principle h3 {

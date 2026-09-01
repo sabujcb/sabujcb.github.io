@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="academic-home">
+  <section class="academic-hero" aria-labelledby="home-title">
+    <div>
+      <p class="academic-eyebrow">Project Researcher · University of Turku</p>
+      <h1 id="home-title">Sabuj C. Bhowmick</h1>
+      <p class="academic-hero-title">Data science, machine learning, and computational biology</p>
+      <p class="academic-hero-thesis">
+        I develop reproducible analytical workflows for scientific and applied problems, with an emphasis on rigorous validation, interpretable
+        results, and research software that others can inspect and reuse.
+      </p>
+      <div class="academic-actions" aria-label="Primary portfolio links">
+        <a class="academic-button academic-button-primary" href="{{ '/projects/' | relative_url }}">
+          Explore projects <span aria-hidden="true">→</span>
+        </a>
+        <a class="academic-button" href="{{ '/research/' | relative_url }}">Current research</a>
+      </div>
+    </div>
+
+    <div class="academic-portrait">
+      <img
+        src="{{ '/assets/img/sabuj.jpg' | relative_url }}"
+        width="1200"
+        height="1599"
+        alt="Portrait of Sabuj C. Bhowmick"
+        loading="eager"
+        decoding="async"
+      >
+    </div>
+  </section>
+
+  {{ content }}
+</article>

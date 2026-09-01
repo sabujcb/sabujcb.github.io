@@ -25,8 +25,8 @@ description: Education, research experience, technical skills, and selected proj
     border: 1px solid var(--cv-border);
     border-radius: 1rem;
     background:
-      radial-gradient(circle at top right, rgba(111, 66, 193, 0.15), transparent 42%),
-      linear-gradient(135deg, rgba(0, 123, 255, 0.11), rgba(32, 201, 151, 0.07));
+      radial-gradient(circle at top right, var(--academic-gold-soft), transparent 42%),
+      linear-gradient(135deg, var(--academic-accent-soft), var(--academic-teal-soft));
   }
 
   .cv-eyebrow {

@@ -36,6 +36,14 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 Portfolio claims should be supported by project records, repositories, reports, or reproducible results. Template demonstrations and unrelated sample material are intentionally excluded.
 
+## Portfolio maintenance skill
+
+The repository includes a reusable Codex skill at
+`.codex/skills/github-pages-academic-portfolio/`. It defines the design, accessibility, evidence, SEO, validation, and
+pull-request workflow for future portfolio work.
+
+Invoke it with `$github-pages-academic-portfolio` when auditing, redesigning, optimizing, or extending this site.
+
 ## License
 
 The site source is available under the terms in [LICENSE](LICENSE).
