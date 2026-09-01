@@ -9,9 +9,15 @@ nav_order: 2
 
 ## Current research direction
 
-My current work focuses on **reproducible multi-omics integration** for microbiome research. The central methodological problem is ensuring that Joint-RPCA workflows implemented in different software ecosystems are compared using equivalent inputs, preprocessing rules, model settings, and validation criteria.
+<div class="academic-lead" markdown="1">
+
+As a **Project Researcher** in the University of Turku Department of Computing, I support data analytics for the NoveLyme project. My recent research-software work also focuses on **reproducible multi-omics integration** for microbiome research.
+
+</div>
 
 ### Joint-RPCA and microbiome analytics
+
+The central methodological problem is ensuring that Joint-RPCA workflows implemented in different software ecosystems are compared using equivalent inputs, preprocessing rules, model settings, and validation criteria.
 
 The work includes:
 

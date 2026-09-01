@@ -1,0 +1,5 @@
+interface:
+  display_name: "Academic Portfolio"
+  short_description: "Design and optimize an academic GitHub portfolio"
+  brand_color: "#0B5CAD"
+  default_prompt: "Use $github-pages-academic-portfolio to improve my GitHub Pages academic portfolio."
