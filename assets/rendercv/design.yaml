@@ -3,5 +3,29 @@ design:
   theme: classic
   page:
     size: a4
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.6in
+    right_margin: 0.6in
     show_footer: false
     show_top_note: false
+  typography:
+    line_spacing: 0.5em
+    font_size:
+      body: 10pt
+      name: 28pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.35em
+  header:
+    space_below_name: 0.45cm
+    space_below_headline: 0.45cm
+    space_below_connections: 0.45cm
+  section_titles:
+    space_above: 0.3cm
+    space_below: 0.18cm
+  sections:
+    space_between_regular_entries: 0.9em
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 3.7cm
