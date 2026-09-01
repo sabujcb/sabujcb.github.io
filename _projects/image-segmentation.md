@@ -3,7 +3,19 @@ layout: page
 title: RGB and NIR Image Segmentation
 description: Controlled comparison of RGB and multimodal inputs for semantic segmentation.
 importance: 3
+featured_order: 5
 category: machine-learning
+project_type: Computer vision
+status: Completed study
+metric_value: "87.01%"
+metric_label: RGB test score in the controlled input-modality comparison
+card_highlights:
+  - Compares RGB with combined RGB and near-infrared inputs under one protocol.
+  - Shows that an additional modality does not guarantee improved generalization.
+tools: [Python, deep learning, RGB/NIR, semantic segmentation]
+resources:
+  - label: Segmentation models
+    url: https://docs.pytorch.org/vision/stable/models.html#semantic-segmentation
 ---
 
 ## Overview
