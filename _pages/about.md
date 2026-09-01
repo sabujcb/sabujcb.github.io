@@ -3,8 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Data Science · Machine Learning · Computational Biology · Applied Statistics
-nav: true
-nav_order: 1
+nav: false
 profile:
   align: right
   image: sabuj.jpg
